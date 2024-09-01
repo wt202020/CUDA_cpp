@@ -1,2 +1,2 @@
-build/
-cppcuda_tutorial.egg-info/
+/build
+/cppcuda_tutorial.egg-info
