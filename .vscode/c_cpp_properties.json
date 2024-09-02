@@ -3,7 +3,9 @@
     {
       "name": "linux-gcc-x64",
       "includePath": [
-        "${workspaceFolder}/**"
+        "/home/wt/anaconda3/envs/py3.7/include/python3.7m",
+        "/home/wt/anaconda3/envs/py3.7/lib/python3.7/site-packages/torch/include",
+        "/home/wt/anaconda3/envs/py3.7/lib/python3.7/site-packages/torch/include/torch/csrc/api/include"
       ],
       "compilerPath": "/usr/bin/gcc",
       "cStandard": "${default}",

@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": false,
-      "cwd": "/home/wt/code_HKUST_gz/3D_vision",
-      "program": "/home/wt/code_HKUST_gz/3D_vision/build/Debug/outDebug",
+      "cwd": "/home/wt/code_HKUST_gz/3D_vision/CUDA_cpp",
+      "program": "/home/wt/code_HKUST_gz/3D_vision/CUDA_cpp/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [

@@ -1,12 +1,16 @@
 #include <torch/extension.h>
+#include "include/utils.h"
+
 
 
 torch::Tensor trilinear_interpolation(
     torch::Tensor feats,
-    torch::Tensor point
+    torch::Tensor points
 )
 {
-    return feats;
+    CHECK_INPUT(feats);
+    CHECK_INPUT(points);
+    return trilinear_fw_cu(feats, points);
 }
 
 PYBIND11_MODULE(TORCH_EXTENSION_NAME, m){
